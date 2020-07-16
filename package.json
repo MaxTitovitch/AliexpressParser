@@ -1,0 +1,21 @@
+{
+   "name": "ebay-parser",
+   "version": "0.0.1",
+   "description": "Awesome project developed with TypeORM.",
+   "devDependencies": {
+      "ts-node": "3.3.0",
+      "@types/node": "^8.0.29",
+      "typescript": "3.3.3333"
+   },
+   "dependencies": {
+      "puppeteer": "^2.1.1",
+      "puppeteer-extra": "^3.1.12",
+      "puppeteer-extra-plugin-stealth": "^2.4.13",
+      "reflect-metadata": "^0.1.10",
+      "request": "^2.88.2"
+   },
+   "scripts": {
+      "start": "ts-node src/index.ts",
+      "type:run": "ts-node ./node_modules/typeorm/cli.js migrations:run"
+   }
+}
